@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cristiano Ronaldo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <style>
+      h1 {
+        font-size: 50px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        color: darkblue;
+      }
+      h3,
+      h4 {
+        color: darkblue;
+      }
+      li {
+        color: yellow;
+      }
+      .ab {
+        background-color: darkblue;
+        display: inline-block;
+        height: 130px;
+        width: 250px;
+      }
+      .a {
+        background-color: darkblue;
+        display: inline-block;
+        height: 110px;
+        width: 240px;
+      }
+      .b {
+        background-color: darkblue;
+        display: inline-block;
+        height: 110px;
+        width: 240px;
+      }
+      
+    </style>
+    <link rel="icon" href="Cristiano-Ronaldo-logo11.jpg" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img
+            src="Cristiano-Ronaldo-logo11.jpg"
+            alt="image"
+            style="width: 70px"
+          />
+          <h1>Cristiano Ronaldo</h1>
+          <ul style="background-color: darkblue" class="navbar-nav">
+            <li class="nav-item">
+              <a style="color: yellow" class="nav-link active" href="home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a style="color: yellow" class="nav-link" href="about.html"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <hr>
+      <center>
+        <img src="crr.jpg" alt="Image" style="width: 1349px" />
+        <hr />
+      </center>
+      <h6>
+        Cristiano Ronaldo is a Portuguese professional footballer widely
+        regarded as one of the greatest players of all time. Known for his
+        incredible skill, speed, and goal-scoring ability, he has played for top
+        clubs such as Manchester United, Real Madrid, Juventus, and Al-Nassr.
+        Ronaldo has won numerous prestigious awards, including multiple Ballon
+        d'Or titles, and has set records for most goals in both the UEFA
+        Champions League and international football for Portugal. His relentless
+        work ethic and leadership on and off the pitch have made him a global
+        sports icon.
+      </h6>
+      <br />
+      <h3>Career Highlights</h3>
+
+      <h6>
+        Cristiano Ronaldo, one of the greatest footballers in history, has had
+        an illustrious career. Starting at Sporting Lisbon, he gained global
+        recognition at Manchester United, winning three Premier League titles
+        and a Champions League, along with his first Ballon d'Or in 2008. At
+        Real Madrid, he won four Champions League titles, became the club’s
+        all-time top scorer, and secured four more Ballon d'Ors. After success
+        in Italy with Juventus, Ronaldo returned to Manchester United,
+        surpassing 800 career goals. Internationally, he led Portugal to Euro
+        2016 and the Nations League 2019, becoming the all-time top
+        international goal scorer.
+      </h6>
+      <div class="collapse" id="sajan">
+        <h6>
+          Cristiano Ronaldo’s career is marked by extraordinary achievements,
+          both at the club and international levels. He has won five Ballon d'Or
+          awards, cementing his place among football’s elite. With Manchester
+          United, he claimed three Premier League titles and a Champions League
+          victory in 2008. During his time at Real Madrid, Ronaldo won four
+          Champions League titles, becoming the club’s all-time top scorer with
+          450 goals. He also found success in Italy, winning two Serie A titles
+          with Juventus. Internationally, Ronaldo led Portugal to their first
+          major trophy at Euro 2016 and added the UEFA Nations League in 2019,
+          while becoming the all-time top scorer in international football. His
+          consistent ability to perform in different leagues and competitions
+          highlights his unmatched talent and dedication to the sport.
+        </h6>
+      </div>
+      <br />
+      <button
+        class="btn btn-outline-primary"
+        data-bs-toggle="collapse"
+        data-bs-target="#sajan"
+      >
+        See more
+      </button>
+      <hr />
+      
+
+      <div>
+        <h3>Achievements</h3>
+        <br />
+        <h4>1. Club</h4>
+        <ul class="ab">
+          <li>Premier League</li>
+          <li>Football League Cup</li>
+          <li>FA Community Shield</li>
+          <li>UEFA Champions League</li>
+          <li>FIFA Club World Cup</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>2. International Achievements</h4>
+        <ul class="a">
+          <li>UEFA Euro Championship</li>
+          <li>UEFA Nations League</li>
+          <li>FIFA U-20 World Cup</li>
+          <li>FIFA Confederations Cup</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>3. Individual Achievements</h4>
+        <ul class="b">
+          <li>Ballon d'Or</li>
+          <li>FIFA World Player of the Year</li>
+          <li>UEFA Best Player in Europe</li>
+          <li>FIFA Puskás Award</li>
+        </ul>
+      </div>
+
+      
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
